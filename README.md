@@ -137,10 +137,6 @@ class MyApplicationValidationService
         // other model Validations  (example category, user, ....)
     }
 
-    public function addModelValidations($modelName,$validations){
-        $this->validationService->addValidations($modelName,$validations);
-    }
-
     public function addPostValidations(){
         $validations = [
             'title' => [$this->strategy->required('Please enter a title'),$this->strategy->minLength()],
