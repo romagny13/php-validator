@@ -1,0 +1,23 @@
+{
+    "name": "romagny13/php-validator",
+    "description": "Simple Php Validator",
+    "authors": [
+        {
+            "name": "Jerome Romagny",
+            "email": "romagny13@yahoo.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPValidator\\": "src"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "scripts":{
+        "start": "php -S localhost:8080 -t example",
+        "test": "phpunit -c ."
+    }
+}
