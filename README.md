@@ -7,6 +7,8 @@
 composer require romagny13\php-validator
 ```
 
+## Presentation
+
 **Validation classes** (extends Validation base class) => with message (error message) and __invoke (magic function) to validate the received value:
 * RequiredValidation
 * MinLengthValidation
