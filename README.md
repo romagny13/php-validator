@@ -18,12 +18,12 @@ composer require romagny13\php-validator
 * CustomValidation
 
 **Services**:
-* ValidationStrategy (implements ValidationStrategyInterface) => returns Validation class instances (RequiredValidation, MinLengthValidation, etc.)
-* ValidationService (implements ValidationServiceInterface) => allows to register validations by models and validate model values
+* **ValidationStrategy** (implements ValidationStrategyInterface) => returns Validation class instances (RequiredValidation, MinLengthValidation, etc.)
+* **ValidationService** (implements ValidationServiceInterface) => allows to register validations by models and validate model values
 
 **Helpers**:
-* Validations => Provides shortcuts (static functions) to create instances of Validations (**required**, **minLength**, **maxLength**, **pattern**, **email**, **custom**)
-* Validator => Allows to validate easily (static functions) a model with validations  (**valide model** and **validateValue**)
+* **Validations** => Provides shortcuts (static functions) to create instances of Validations (**required**, **minLength**, **maxLength**, **pattern**, **email**, **custom**)
+* **Validator** => Allows to validate easily (static functions) a model with validations  (**valide model** and **validateValue**)
 
 
 ## Example
